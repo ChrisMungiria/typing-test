@@ -37,7 +37,11 @@ const DifficultyLevel = async ({ params }: { params: { level: string } }) => {
 
       <div className="w-11/12 max-w-3xl flex flex-wrap items-center justify-center gap-2 text-[#5E6572]">
         {words.map((word, index) => (
-          <p key={index} className="text-sm text-center">
+          <p
+            key={index}
+            className="text-center rexrlg
+          "
+          >
             {word}
           </p>
         ))}

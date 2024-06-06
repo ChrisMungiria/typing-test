@@ -8,21 +8,25 @@ export default function Home() {
       </h1>
 
       {/* Options */}
-      <ul className="w-3/4  space-y-3 my-auto max-w-xl  flex flex-col mx-auto text-slate-400">
-        <Link href={"/difficulty/easy"}>
-          <li className="p-4 px-2 uppercase tracking-widest  text-custom-green/50 rounded-full border border-custom-green/50 hover:border-[#48A9A6] flex items-center justify-center cursor-pointer hover:text-[#48A9A6]">
-            Easy
-          </li>
+      <ul className="w-3/4 space-y-3 my-auto max-w-xl  flex flex-col mx-auto text-slate-400">
+        <Link
+          href={"/difficulty/easy"}
+          className="p-4 px-2 uppercase tracking-widest  text-custom-green/50 rounded-full border border-custom-green/50 hover:border-[#48A9A6] flex items-center justify-center cursor-pointer hover:text-[#48A9A6]"
+        >
+          Easy
         </Link>
-        <Link href={"/difficulty/medium"}>
-          <li className="p-4 px-2 uppercase tracking-widest text-custom-yellow/50 rounded-full border border-custom-yellow/50 hover:border-[#D4B483] flex items-center justify-center cursor-pointer hover:text-[#D4B483]">
-            Medium
-          </li>
+
+        <Link
+          href={"/difficulty/medium"}
+          className="p-4 px-2 uppercase tracking-widest text-custom-yellow/50 rounded-full border border-custom-yellow/50 hover:border-[#D4B483] flex items-center justify-center cursor-pointer hover:text-[#D4B483]"
+        >
+          Medium
         </Link>
-        <Link href={"/difficulty/hard"}>
-          <li className="p-4 px-2 uppercase tracking-widest text-custom-red/50 rounded-full border border-custom-red/50 hover:border-[#C1666B] flex items-center justify-center cursor-pointer hover:text-[#C1666B]">
-            Hard
-          </li>
+        <Link
+          href={"/difficulty/hard"}
+          className="p-4 px-2 uppercase tracking-widest text-custom-red/50 rounded-full border border-custom-red/50 hover:border-[#C1666B] flex items-center justify-center cursor-pointer hover:text-[#C1666B]"
+        >
+          Hard
         </Link>
       </ul>
     </main>
