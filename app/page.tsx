@@ -10,17 +10,17 @@ export default function Home() {
       {/* Options */}
       <ul className="w-3/4  space-y-3 my-auto max-w-xl  flex flex-col mx-auto text-slate-400">
         <Link href={"/difficulty/easy"}>
-          <li className="p-4 px-2 uppercase tracking-widest text-[rgba(72,169,166,0.5)] rounded-full border border-[rgba(72,169,166,0.5)] hover:border-[#48A9A6] flex items-center justify-center cursor-pointer hover:text-[#48A9A6]">
+          <li className="p-4 px-2 uppercase tracking-widest  text-green/50 rounded-full border border-green/50 hover:border-[#48A9A6] flex items-center justify-center cursor-pointer hover:text-[#48A9A6]">
             Easy
           </li>
         </Link>
         <Link href={"/difficulty/medium"}>
-          <li className="p-4 px-2 uppercase tracking-widest text-[rgba(212,180,131,0.5)] rounded-full border border-[rgba(212,180,131,0.5)] hover:border-[#D4B483] flex items-center justify-center cursor-pointer hover:text-[#D4B483]">
+          <li className="p-4 px-2 uppercase tracking-widest text-yellow/50 rounded-full border border-yellow/50 hover:border-[#D4B483] flex items-center justify-center cursor-pointer hover:text-[#D4B483]">
             Medium
           </li>
         </Link>
         <Link href={"/difficulty/hard"}>
-          <li className="p-4 px-2 uppercase tracking-widest text-[rgba(193,102,107,0.5)] rounded-full border border-[rgba(193,102,107,0.5)] hover:border-[#C1666B] flex items-center justify-center cursor-pointer hover:text-[#C1666B]">
+          <li className="p-4 px-2 uppercase tracking-widest text-red/50 rounded-full border border-red/50 hover:border-[#C1666B] flex items-center justify-center cursor-pointer hover:text-[#C1666B]">
             Hard
           </li>
         </Link>
