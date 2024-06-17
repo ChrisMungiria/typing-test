@@ -72,10 +72,9 @@ const DifficultyLevel = ({ params }: { params: { level: string } }) => {
           <span
             className={`text-slate-500 ${
               index === charIndex ? "bg-slate-100/50" : ""
-            }
-      
-      ${correctWrong[index] === "wrong" && " text-custom-red"} 
-      ${correctWrong[index] === "correct" && "text-custom-green"}
+            } 
+              ${correctWrong[index] === "correct" ? "text-[#48A9A6]" : ""}
+              ${correctWrong[index] === "wrong" ? "text-[#C1666B]" : ""}  
      `}
             key={index}
             ref={(e: any) => (charRefs.current[index] = e)}
